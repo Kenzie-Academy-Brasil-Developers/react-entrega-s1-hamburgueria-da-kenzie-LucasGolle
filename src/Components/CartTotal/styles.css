@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.divTotalMoney{
+    display: flex;
+    flex-direction: column;
+    width: 80.754vw;
+    margin: 0 auto;
+    margin-top: 21px;
+    border-top: solid 2px #E0E0E0;;
+}
+
+.tituloValor{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 21px;
+    margin-bottom: 20px;
+}
+
+.titleValue{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.toralValue{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #828282;
+}
+
+.buttonRemover{
+    Height: 60px;
+    background: #E0E0E0;
+    border: 2px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #828282;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+@media (min-width:1024px){
+    
+    .divTotalMoney{
+        display: flex;
+        flex-direction: column;
+        width: 290px;
+        margin-top: 21px;
+        margin-right: 115px;
+        border-top: solid 2px #E0E0E0;;
+    }
+}

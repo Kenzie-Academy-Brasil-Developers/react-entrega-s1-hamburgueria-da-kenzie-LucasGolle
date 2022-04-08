@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.headerDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #F5F5F5;
+}
+
+.logo{
+    width: 38.16vw;
+    height: 8.89vh;
+    margin-top: 14px;
+}
+
+.inputButtonDiv{
+    width: 92.271vw;
+    border: solid 2px #E0E0E0;
+    height: 60px;
+    border-radius: 8px;
+    padding: 0px, 10px, 0px, 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inputPesquisa{
+    padding-left: 15px;
+}
+
+.buttonPesquisar{
+    width: 25.845vw;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #27AE60;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Inter';
+    border: none;
+    margin-right: 10px;
+}
+
+@media (min-width:1024px) {
+    
+    .headerDiv{ 
+    flex-direction: row;
+    justify-content: space-between;
+}
+    .logo{
+        width: 158.94px;
+        height: 36.83px;
+        margin-left: 110px;
+    }
+
+    .inputButtonDiv{
+        width: 365px;
+        height: 60px;
+        margin-top: 10px;
+        margin-right: 115px;
+    }
+
+}

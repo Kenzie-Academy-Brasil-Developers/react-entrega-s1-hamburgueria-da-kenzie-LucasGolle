@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.produtoCarrosel{
+    height: 346px;
+    width: 300px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px #E0E0E0;
+    margin-left: 16px;
+    margin-right: 20px;
+    margin-top: 29px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.imgCarrossel{
+    height: 150px;
+    padding-left: 45px;
+    padding-right: 45px;
+    left: 0px;
+    top: 0px;
+    background: #F5F5F5;
+}
+
+.tituloCarrosel{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+    margin-top: 14px;
+    margin-left: 21px;
+}
+
+.subTituloCarrosel{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #828282;
+    margin-top: 10px;
+    margin-left: 21px;
+    margin-bottom: 14px;
+}
+
+.precoCarrosel{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #27AE60;
+    margin-bottom: 14px;
+    margin-left: 21px;
+}
+
+.buttonCarrosel{
+    height: 40px;
+    width: 106px;
+    border-radius: 8px;
+    padding: 0px, 20px, 0px, 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    left: 20px;
+    top: 133px;
+    background: #27AE60;
+    border: 2px solid #27AE60;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 21px;
+}
+
+.buttonCarrosel:hover{
+    background-color: #1dcc66;;
+}
+
+@media (min-width:1024px){
+
+    .produtoCarrosel{
+        height: 346px;
+        width: 194px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        border: solid 2px #E0E0E0;
+        margin-left: 16px;
+        margin-right: 20px;
+        margin-top: 29px;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .imgCarrossel{
+        width: 180px;
+    }
+
+}

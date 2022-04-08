@@ -1,0 +1,65 @@
+.carrinho{
+    width: 92.754vw;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.tituloCarrinho{
+    height: 65px;
+    width: 92.754vw;
+    background: #27AE60;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    align-items: center;
+    padding-left: 21px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.cardCarrinho{
+    display: flex;
+    align-items: center;
+}
+
+.lixeira{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+@media (min-width:1024px){
+    .cointeinerCarrinho{
+        width: 300px;
+        margin-right: 115px;
+    }
+
+    .carrinho{
+        width: 300px;
+        background-color: #F5F5F5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px;
+        margin-top: 29px;
+    }
+
+    .tituloCarrinho{
+        width: 300px;
+    }
+    
+    .lixeira{
+        height: 15px;
+        width: 45px;
+        margin-left: 5px;
+    }
+
+    .cardCarrinho{
+        width: 290px;
+    }
+}

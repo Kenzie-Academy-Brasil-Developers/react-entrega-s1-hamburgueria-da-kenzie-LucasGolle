@@ -1,0 +1,14 @@
+.carrosselImagem{
+    display: flex;
+    overflow-x: scroll;
+}
+
+@media (min-width:1024px){
+    .carrosselImagem{
+        overflow-x: hidden;
+        flex-wrap: wrap;
+        column-count: 3;
+        width: 700px;
+        margin-left: 90px;
+    }
+}
