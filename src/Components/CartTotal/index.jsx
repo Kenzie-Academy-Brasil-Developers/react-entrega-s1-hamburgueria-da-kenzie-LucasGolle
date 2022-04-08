@@ -1,6 +1,6 @@
 import "./styles.css"
 
-const CartTotal = ({currentSale}) =>{
+const CartTotal = ({currentSale, deleteAll}) =>{
 
     const result = currentSale.reduce((a, {price}) => a + price, 0)
     return (
@@ -10,7 +10,7 @@ const CartTotal = ({currentSale}) =>{
               <h1 className="titleValue">Total</h1>
             <span className="toralValue">R$ {result.toFixed(2)}</span>
             </div>
-          <button className="buttonRemover">Remover todos</button>
+          <button onClick={(e) => deleteAll(e.target)} className="buttonRemover">Remover todos</button>
           </div>
         </>
       );

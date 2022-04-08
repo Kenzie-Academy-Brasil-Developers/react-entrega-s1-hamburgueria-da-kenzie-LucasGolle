@@ -41,6 +41,11 @@
     font-family: 'Inter';
     border: none;
     margin-right: 10px;
+    cursor: pointer;
+}
+
+.buttonPesquisar:hover{
+    background-color: #1fca67;
 }
 
 @media (min-width:1024px) {

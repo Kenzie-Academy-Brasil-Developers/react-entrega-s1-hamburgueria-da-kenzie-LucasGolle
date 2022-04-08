@@ -22,8 +22,15 @@ function App() {
   }, [products])
 
   const showProducts = (input) =>{
-    const result = products.filter(({name}) => name.toLowerCase() === input.toLowerCase())
-    setFilteredProducts(result);
+    const result = products.filter(({name}) => name.toLowerCase().includes(input.toLowerCase()))
+    input.length > 0 ?
+    setFilteredProducts(result)
+    : setFilteredProducts(products)
+  }
+
+  const deleteAll = (list) =>{
+    const result = currentSale.filter(({id}) => id === list)
+    setCurrentSale(result)
   }
 
   const handleClick = (productId) => {
@@ -44,7 +51,7 @@ function App() {
       <ProductList products={filteredProducts} handleClick={handleClick} />
       <div>
       <CartList currentSale={currentSale} moveToTrash={moveToTrash}/>
-      {currentSale.length > 0 && <CartTotal currentSale={currentSale}/>}
+      {currentSale.length > 0 && <CartTotal currentSale={currentSale} deleteAll={deleteAll}/>}
       </div>
       </div>
       </>
