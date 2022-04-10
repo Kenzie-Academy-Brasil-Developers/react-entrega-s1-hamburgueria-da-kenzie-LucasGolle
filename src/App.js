@@ -28,6 +28,10 @@ function App() {
     : setFilteredProducts(products)
   }
 
+  const showAllProducts = () =>{
+    setFilteredProducts(products)
+  }
+
   const deleteAll = (list) =>{
     const result = currentSale.filter(({id}) => id === list)
     setCurrentSale(result)
@@ -46,7 +50,7 @@ function App() {
 
   return (
     <>
-      <Header showProducts={showProducts}/>
+      <Header showProducts={showProducts} showAllProducts={showAllProducts}/>
       <div className="main">
       <ProductList products={filteredProducts} handleClick={handleClick} />
       <div>

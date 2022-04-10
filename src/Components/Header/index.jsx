@@ -2,12 +2,12 @@ import logo from "../../assets/logo.svg";
 import { useState } from "react";
 import "./styles.css"
 
-const Header = ({ showProducts }) => {
+const Header = ({ showProducts, showAllProducts }) => {
   const [inputValue, setInputValue] = useState("");
 
   return (
     <div className="headerDiv">
-      <img className="logo" src={logo} alt="logo"></img>
+      <img onClick={showAllProducts} className="logo" src={logo} alt="logo"></img>
       <div className="inputButtonDiv">
       <input className="inputPesquisa"
         onChange={(event) => setInputValue(event.target.value)}
