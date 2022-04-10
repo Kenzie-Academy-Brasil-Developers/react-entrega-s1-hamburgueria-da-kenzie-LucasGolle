@@ -33,6 +33,10 @@
     cursor: pointer;
 }
 
+.lixeira:hover{
+    background-color: rgb(230, 217, 217);
+}
+
 @media (min-width:1024px){
     .cointeinerCarrinho{
         width: 300px;
@@ -55,7 +59,7 @@
     
     .lixeira{
         height: 15px;
-        width: 45px;
+        width: 65px;
         margin-left: 5px;
     }
 
