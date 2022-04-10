@@ -22,7 +22,7 @@ function App() {
   }, [products])
 
   const showProducts = (input) =>{
-    const result = products.filter(({name}) => name.toLowerCase().includes(input.toLowerCase()))
+    const result = products.filter(({name, category}) => name.toLowerCase().includes(input.toLowerCase()) || category.toLowerCase().includes(input.toLowerCase()))
     input.length > 0 ?
     setFilteredProducts(result)
     : setFilteredProducts(products)

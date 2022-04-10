@@ -90,7 +90,7 @@
 
     .produtoCarrosel{
         height: 346px;
-        width: 194px;
+        width: 224px;
         background-color: #FFFFFF;
         display: flex;
         flex-direction: column;
@@ -103,7 +103,7 @@
     }
 
     .imgCarrossel{
-        width: 180px;
+        width: 220px;
     }
 
 }

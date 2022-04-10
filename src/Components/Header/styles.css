@@ -18,9 +18,11 @@
 
 .inputButtonDiv{
     width: 92.271vw;
-    border: solid 2px #E0E0E0;
+    border: solid 2px #FFFFFF;
+    background-color: #FFFFFF;
     height: 60px;
     border-radius: 8px;
+    margin-bottom: 10px;
     padding: 0px, 10px, 0px, 15px;
     display: flex;
     align-items: center;
@@ -28,7 +30,7 @@
 }
 
 .inputPesquisa{
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
 .buttonPesquisar{
